@@ -1,10 +1,8 @@
-from django.db import models
-
 # Create your models here.
 from django.db import models
 
 class Club(models.Model):
-    clubName = models.CharField(max_length=200)
+    clubName = models.CharField(max_length=201)
     shortName = models.CharField(max_length=200)
     address1 = models.CharField(max_length=200)
     address2 = models.CharField(max_length=200)
